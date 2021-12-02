@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Comforter+Brush&family=Hind:wght@700&family=Kaushan+Script&family=Yantramanav:wght@100;300&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Abril Fatface', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/ca.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        top: 18px;
+        left: 34px;
+        position: absolute;
+    }
+
+    .left img {
+        width: 43px;
+        margin: 0px 29px auto;
+    }
+
+    .lef div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+        /* border: 2px solid red; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(240, 186, 186);
+        padding: 34px 23px;
+
+    }
+
+    .btn {
+        margin: 17px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(78, 78, 25);
+        color: rgb(216, 199, 199)
+    }
+
+    .container {
+        border: 2px solid #f3f8f7;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 35px;
+    }
+
+    .form-group input {
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container .btn {
+        display: block;
+        width: 103%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="heder">
+        <div class="left">
+            <img src="img/gym.png" alt="">
+            <div>Coder Groups</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Top Coders</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Connect Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Coding Group</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your locality">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
